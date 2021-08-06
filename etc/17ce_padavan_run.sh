@@ -33,6 +33,7 @@ init_files()
 		wget_install libc.so    $CDN_BASE/bin/libc.so
 		wget_install ld-uClibc.so.1    $CDN_BASE/bin/ld-uClibc.so.1
 		wget_install 17ce_v3      $CDN_BASE/bin/17ce_v3
+		wget_install libmbedcrypto.so.0 $CDN_BASE/bin/libmbedcrypto.so.0
 		
 	fi
 
